@@ -1,0 +1,6 @@
+include ':core:core-base'
+include ':core:core-db'
+include ':core:core-common'
+include ':core:core-ui'
+include ':app'
+rootProject.name = "AldoApp"

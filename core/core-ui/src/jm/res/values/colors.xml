@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e2a25</color>
+    <color name="colorPrimaryLight">#BF2e2a25</color>
+    <color name="colorPrimaryDark">#2e2a25</color>
+
+    <color name="secondary_text_color">#ffffff</color>
+
+    <color name="primary_button_color">@color/colorPrimary</color>
+
+    <color name="secondary_button_color">#ce0e2d</color>
+    <color name="secondary_button_text_color">#ffffff</color>
+    <color name="secondary_button_icon_tint">@color/colorPrimary</color>
+
+    <color name="selectable_button_text_color_active">#ffffff</color>
+    <color name="selectable_button_text_color_disabled">#ce0e2d</color>
+    <color name="selectable_button_background_active">#ce0e2d</color>
+    <color name="selectable_button_background_disabled">#f5cfd5</color>
+    <color name="selectable_button_icon_tint_active">#ffffff</color>
+    <color name="selectable_button_icon_tint_disabled">#ce0e2d</color>
+
+    <color name="toolbar_icon_tint">#ffffff</color>
+
+</resources>

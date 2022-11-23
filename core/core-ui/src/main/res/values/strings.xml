@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="email">Correo</string>
+    <string name="name">Nombre</string>
+    <string name="rut">Rut</string>
+    <string name="password">Contraseña</string>
+    <string name="password_repeat">Repetir contraseña</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <string name="sign_up">No tengo cuenta</string>
+    <string name="close_session">Cerrar sesión</string>
+</resources>

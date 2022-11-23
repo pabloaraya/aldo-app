@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="space_none">0dp</dimen>
+    <dimen name="space_extra_small">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_normal">16dp</dimen>
+    <dimen name="space_large">24dp</dimen>
+    <dimen name="space_extra_large">32dp</dimen>
+
+    <dimen name="corner_radius_8dp">8dp</dimen>
+    <dimen name="corner_radius_12dp">12dp</dimen>
+    <dimen name="corner_radius_16dp">16dp</dimen>
+    <dimen name="corner_radius_24dp">24dp</dimen>
+    <dimen name="corner_radius_48dp">48dp</dimen>
+
+    <dimen name="elevation_8dp_2dp">2dp</dimen>
+    <dimen name="elevation_8dp_4dp">4dp</dimen>
+    <dimen name="elevation_8dp">8dp</dimen>
+
+    <dimen name="material_text_button">14sp</dimen>
+    <dimen name="material_text_menu">14sp</dimen>
+    <dimen name="material_text_caption">12sp</dimen>
+    <dimen name="material_text_body">14sp</dimen>
+    <dimen name="material_text_subhead">16sp</dimen>
+    <dimen name="material_text_sub_title">18sp</dimen>
+    <dimen name="material_text_title">20sp</dimen>
+    <dimen name="material_text_headline">24sp</dimen>
+    <dimen name="material_text_headline2">24sp</dimen>
+    <dimen name="material_text_display1">34sp</dimen>
+    <dimen name="material_text_display2">45sp</dimen>
+    <dimen name="material_text_display3">56sp</dimen>
+    <dimen name="material_text_display4">112sp</dimen>
+
+    <!--Override Bottom Navigation values-->
+    <dimen name="design_bottom_navigation_height" tools:override="true">64dp</dimen>
+    <dimen name="design_bottom_navigation_icon_size" tools:override="true">32dp</dimen>
+
+    <dimen name="offer_item_size">250dp</dimen>
+    <dimen name="benefit_item_width">176dp</dimen>
+    <dimen name="benefit_item_height">100dp</dimen>
+    <dimen name="menu_item_height">72dp</dimen>
+    <dimen name="dialog_option_height">32dp</dimen>
+    <dimen name="delivery_item_height">64dp</dimen>
+    <dimen name="menu_user_photo">58dp</dimen>
+    <dimen name="social_network_icon_size">40dp</dimen>
+    <dimen name="notification_counter_icon_size">20dp</dimen>
+
+    <!--Strokes-->
+    <dimen name="default_stroke">2dp</dimen>
+
+    <!--Splash-->
+    <dimen name="splash_logo_width">320dp</dimen>
+    <dimen name="splash_logo_height">234dp</dimen>
+
+    <dimen name="user_photo">160dp</dimen>
+    <dimen name="dialog_close_button">58dp</dimen>
+    <dimen name="in_login_button">32dp</dimen> <!--48dp-->
+    <dimen name="login_button">52dp</dimen> <!--72dp-->
+    <dimen name="bg_login_button">76dp</dimen> <!--96dp-->
+
+    <!--QR-->
+    <dimen name="qr_code_size">200dp</dimen>
+    <dimen name="qr_code_stroke_width">10dp</dimen>
+    <dimen name="qr_code_radius">20dp</dimen>
+    <dimen name="qr_viewholder_size">60dp</dimen>
+    <dimen name="bg_layout_radius">24dp</dimen>
+
+    <!--Benefit delivery-->
+    <dimen name="benefit_coupon_size">300dp</dimen>
+
+</resources>

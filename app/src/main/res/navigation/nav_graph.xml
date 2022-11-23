@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/readSerialFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.cl.mimet.ui.home.fragment.ReadSerialFragment"
+        android:label="main"
+        tools:layout="@layout/fragment_read_serial">
+
+        <action
+            android:id="@+id/action_MainFragment_to_readRfidFragment"
+            app:destination="@id/readStationFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_signFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readSerialFragment"
+        android:name="com.cl.mimet.ui.home.fragment.ReadSerialFragment"
+        android:label="bardCode"
+        tools:layout="@layout/fragment_read_serial">
+        <action
+            android:id="@+id/action_ReadSerialFragment_to_readRfidFragment"
+            app:destination="@id/readRfidFragment" />
+        <action
+            android:id="@+id/action_ReadSerialFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+        <action
+            android:id="@+id/action_ReadSerialFragment_to_SignInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readRfidFragment"
+        android:name="com.cl.mimet.ui.home.fragment.ReadRfidFragment"
+        android:label="write code"
+        tools:layout="@layout/fragment_read_rfid" >
+        <action
+            android:id="@+id/action_readRfidFragment_to_ReadSerialFragment"
+            app:destination="@id/readSerialFragment" />
+        <action
+            android:id="@+id/action_ReadRfidFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.cl.mimet.ui.home.fragment.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" >
+
+        <action
+            android:id="@+id/action_successFragment_to_ReadSerialFragment"
+            app:destination="@id/readSerialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readStationFragment"
+        android:name="com.cl.mimet.ui.home.fragment.ReadRfidFragment"
+        android:label="fragment_read_rfid"
+        tools:layout="@layout/fragment_read_station" >
+
+        <action
+            android:id="@+id/action_readRfidFragment_to_ReadSerialFragment"
+            app:destination="@id/readSerialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.cl.mimet.ui.home.fragment.SignInFragment"
+        android:label="fragment_sign"
+        tools:layout="@layout/fragment_sign" >
+        <action
+            android:id="@+id/action_signFragment_to_ReadSerialFragment"
+            app:destination="@id/readSerialFragment" />
+    </fragment>
+</navigation>

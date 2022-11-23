@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282a4e</color>
+    <color name="colorPrimaryDark">#24bf77</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorLightGreen">#C0FC9A</color>
+    <color name="colorDarkGreen">#35A572</color>
+
+    <color name="colorText">#2F2F2F</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="colorTextBloc">#E4E4E4</color>
+    <color name="colorBloc">#E1DDE7</color>
+
+    <color name="colorShape">#F7F7F7</color>
+
+    <color name="blackSemiTransparent">#802D2A26</color>
+    <color name="colorHintText">#DBDBDB</color>
+    <color name="colorCuponText">#707070</color>
+    <color name="colorCuponSubTitle">#979797</color>
+
+    <color name="colorPrimaryOpa">#3070578B</color>
+
+    <color name="colorView">#E5E5E5</color>
+    <color name="colorErrorDialog">#FF7682</color>
+
+    <color name="colorTextInputs">#F0F0F0</color>
+    <color name="colorShapeInput">#F8F8F8</color>
+    //'s color palette
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#CE202F</color>
+    <color name="colorCoral">#E63E51</color>
+    <color name="colorPurple">#672766</color>
+    <color name="colorGrey">#C1C5C9</color>
+    <color name="colorYellow">#FFCF01</color>
+
+
+    <color name="background">#edeff5</color>
+    <color name="bg_bottom_info">#2c3240</color>
+
+    <color name="colorWhiteSemiTransparent">#80FFFFFF</color>
+    <color name="grey">#D2D2D2</color>
+
+    <color name="text_grey">#777777</color>
+    <color name="primary_text_color">#2D2A26</color>
+    <color name="secondary_text_color">@color/primary_text_color</color>
+
+    <color name="primary_button_color">@color/colorPrimary</color>
+
+    <color name="secondary_button_color">#212630</color>
+    <color name="secondary_button_text_color">#ffffff</color>
+    <color name="secondary_button_icon_tint">@color/colorPrimary</color>
+
+    <color name="other_button_color">#3332ffee</color>
+
+
+    <color name="selectable_button_text_color_active">#ffffff</color>
+    <color name="selectable_button_text_color_disabled">@color/primary_text_color</color>
+    <color name="selectable_button_background_active">#2d2a26</color>
+    <color name="selectable_button_background_disabled">@color/grey</color>
+    <color name="selectable_button_icon_tint_active">#ffffff</color>
+    <color name="selectable_button_icon_tint_disabled">#2d2a26</color>
+
+    <color name="bg_blur">#2c3240</color>
+
+    <color name="toolbar_icon_tint">#2d2a26</color>
+    <color name="transparent_input">#19212630</color>
+
+    <color name="bg_input_dialog">#19212630</color>
+
+</resources>

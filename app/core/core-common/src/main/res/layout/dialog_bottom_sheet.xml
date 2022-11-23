@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/space_extra_large"
+    android:paddingEnd="@dimen/space_extra_large"
+    android:paddingBottom="@dimen/space_normal"
+    app:behavior_hideable="false"
+    android:background="@android:color/white"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_extra_large"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/BoldSubHead16sp"
+        tools:text="¿Estás seguro que deseas cerrar sesión?" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/Regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        android:layout_marginTop="@dimen/space_small"
+        tools:text="This is message" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        tools:text="Cancelar"
+        android:backgroundTint="@color/grey"
+        style="@style/PrimaryButtonStyle"
+
+        app:layout_constraintEnd_toStartOf="@+id/btn_positive"
+        android:layout_marginEnd="@dimen/space_small"
+        app:layout_constraintTop_toBottomOf="@+id/tv_message"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        style="@style/PrimaryButtonStyle"
+        android:backgroundTint="@color/colorPrimary"
+        tools:text="Aceptar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_message"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

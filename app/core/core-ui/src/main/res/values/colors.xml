@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31C8BF</color>
+    <color name="colorPrimaryLight">#32FFEE</color>
+    <color name="colorPrimaryDark">#2D4652</color>
+    <color name="colorAccent">#ECB9C9</color>
+
+    <color name="background_dark">#212630</color>
+    <color name="bg_bottom_info">#2c3240</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorWhiteSemiTransparent">#80FFFFFF</color>
+    <color name="blackSemiTransparent">#802D2A26</color>
+    <color name="background_grey">#e5e5e5</color>
+    <color name="grey">#D2D2D2</color>
+
+    <color name="text_grey">#777777</color>
+    <color name="primary_text_color">#2D2A26</color>
+    <color name="secondary_text_color">@color/primary_text_color</color>
+
+    <color name="primary_button_color">@color/colorPrimary</color>
+
+    <color name="secondary_button_color">#212630</color>
+    <color name="secondary_button_text_color">#ffffff</color>
+    <color name="secondary_button_icon_tint">@color/colorPrimary</color>
+
+    <color name="other_button_color">#3332ffee</color>
+
+
+    <color name="selectable_button_text_color_active">#ffffff</color>
+    <color name="selectable_button_text_color_disabled">@color/primary_text_color</color>
+    <color name="selectable_button_background_active">#2d2a26</color>
+    <color name="selectable_button_background_disabled">@color/grey</color>
+    <color name="selectable_button_icon_tint_active">#ffffff</color>
+    <color name="selectable_button_icon_tint_disabled">#2d2a26</color>
+
+    <color name="bg_blur">#2c3240</color>
+
+    <color name="toolbar_icon_tint">#2d2a26</color>
+    <color name="transparent_input">#19212630</color>
+
+    <color name="bg_input_dialog">#19212630</color>
+
+</resources>

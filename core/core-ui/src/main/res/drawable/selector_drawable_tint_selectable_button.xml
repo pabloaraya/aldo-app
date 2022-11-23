@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/selectable_button_icon_tint_active" android:state_activated="true" />
+    <item android:color="@color/selectable_button_icon_tint_disabled" android:state_activated="false" />
+    <item android:color="@color/selectable_button_icon_tint_active" />
+</selector>

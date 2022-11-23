@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC600</color>
+    <color name="colorPrimaryLight">#BFFFC600</color>
+    <color name="colorPrimaryDark">#FFC107</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+
+    <color name="primary_button_color">@color/colorPrimary</color>
+
+    <color name="secondary_button_color">#2d2a26</color>
+    <color name="secondary_button_text_color">#ffffff</color>
+    <color name="secondary_button_icon_tint">@color/colorPrimary</color>
+
+    <color name="selectable_button_text_color_active">#ffffff</color>
+    <color name="selectable_button_text_color_disabled">@color/primary_text_color</color>
+    <color name="selectable_button_background_active">#2d2a26</color>
+    <color name="selectable_button_background_disabled">@color/grey</color>
+    <color name="selectable_button_icon_tint_active">#ffffff</color>
+    <color name="selectable_button_icon_tint_disabled">#2d2a26</color>
+
+    <color name="toolbar_icon_tint">#2d2a26</color>
+
+</resources>
