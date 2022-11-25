@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="Theme.AldoApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@android:color/black</item>
-        <item name="android:windowBackground">@android:color/white</item>
-        <item name="android:windowFullscreen">true</item>
-
-        <!--        <item name="materialAlertDialogTheme">@style/AlertDialogMaterialTheme</item>-->
-
-    </style>
-
     <style name="RegularToolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
         <item name="colorOnPrimary">@color/colorGrey</item>
 
